@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
             Design Artifacts
           </Link>
           <Link
-            href="/Linkbout"
+            href="about"
             className="transition duration-300 hover:text-[#1b8fc2]/80"
           >
             About us
