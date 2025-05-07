@@ -15,7 +15,7 @@ export default function Home() {
           <p className="text-[1.5rem] text-[#FFFECF] tracking-widest mb-8">
             Where Great Ideas meet Bright Minds.
           </p>
-          <div className="flex flex-row space-x-4">
+          <div className="flex flex-row space-x-4 ">
             <div>
               <button className="font-semibold text-[1.2rem] text-[#FFFECF] bg-[#1C698B] px-10 py-2 rounded-lg hover:bg-[#1B8FC2] transition duration-300 ease-in-out">
                 {" "}
@@ -113,12 +113,12 @@ export default function Home() {
           </div>
 
           {/* Headline */}
-          <div className="w-full max-w-[700px] font-extrabold text-[3rem] lg:text-[3.5rem] mb-8 leading-tight">
+          <div className="w-full max-w-[50%] font-extrabold text-[3rem] lg:text-[3.5rem] mb-8 leading-tight">
             reach. engage. impact.
           </div>
 
           {/* Description */}
-          <div className="w-full max-w-[850px] text-[1.1rem] lg:text-[1.2rem] mb-12 tracking-widest font-light leading-relaxed">
+          <div className="w-full max-w-[70%] text-[1.1rem] lg:text-[1.2rem] mb-12 tracking-widest font-light leading-relaxed">
             From students preparing for their future to professionals managing
             academic and career programs—our platform is built for you. Your
             goals. One platform. Real results.
