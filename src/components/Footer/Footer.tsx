@@ -59,10 +59,10 @@ export default function Footer() {
                   Introduction
                 </Link>
                 <Link
-                  href="/documents"
+                  href="/documents-bmc"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
-                  Identity
+                  BMC
                 </Link>
                 <Link
                   href="/design"
