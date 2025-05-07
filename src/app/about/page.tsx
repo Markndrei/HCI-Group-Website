@@ -55,27 +55,27 @@ export default function About() {
           </p>
         </div>
       </section>
-      <section className="h-[90vh]">
+      <section className="h-[90vh]" id="manns">
         <div className="flex justify-center mt-24">
           <ProfileCard {...profiles[0]} />
         </div>
       </section>
-      <section className="h-[90vh]">
+      <section className="h-[90vh]" id="ethan">
         <div className="flex justify-center ml-50">
           <ProfileCard {...profiles[1]} />
         </div>
       </section>
-      <section className="h-[95vh]">
+      <section className="h-[95vh]" id="mark">
         <div className="flex justify-center mt-42 mr-50">
           <ProfileCard {...profiles[2]} />
         </div>
       </section>
-      <section className="h-[100vh]">
+      <section className="h-[100vh]" id="cha">
         <div className="flex justify-center ml-26">
           <ProfileCard {...profiles[3]} />
         </div>
       </section>
-      <section className="h-[100vh]">
+      <section className="h-[100vh]" id="che">
         <div className="flex justify-center mr-50">
           <ProfileCard {...profiles[4]} />
         </div>

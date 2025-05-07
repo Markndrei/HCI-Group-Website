@@ -5,7 +5,10 @@ export default function Home() {
   return (
     <div>
       {/* Dark intro with possibly animated bg */}
-      <section className="flex flex-col items-start justify-start min-h-screen bg-[#2d2d2d] overflow-x-hidden">
+      <section
+        className="flex flex-col items-start justify-start min-h-screen bg-[#2d2d2d] overflow-x-hidden"
+        id="intro"
+      >
         <div className=" ml-[8%] mt-[8%] space-y-4 ">
           <div className="inline-block border-2 border-[#FFFECF] p-4 mb-8">
             <h1 className="text-6xl font-bold text-[#1B8FC2]">
@@ -36,7 +39,10 @@ export default function Home() {
       </section>
 
       {/* Blue Intro with mockup */}
-      <section className="bg-[#072330] text-[#FFFECF] py-16 min-w-full">
+      <section
+        className="bg-[#072330] text-[#FFFECF] py-16 min-w-full"
+        id="identity"
+      >
         <div className="mx-[15%] mt-[8%]">
           <div className="flex items-center mb-10 space-x-8 tracking-widest text-[1.5rem]">
             <div>
@@ -71,7 +77,10 @@ export default function Home() {
       </section>
 
       {/* purpose section */}
-      <section className="bg-[#1C698B] text-[#FFFECF] py-16 min-w-full">
+      <section
+        className="bg-[#1C698B] text-[#FFFECF] py-16 min-w-full"
+        id="purpose"
+      >
         <div className="mx-[15%] mt-[8%]">
           <div className="flex items-center mb-10 space-x-8 tracking-widest text-[1.5rem]">
             <div>
@@ -99,7 +108,10 @@ export default function Home() {
       </section>
 
       {/* target audience section */}
-      <section className="bg-[#072330] text-[#FFFECF] py-16 w-full ">
+      <section
+        className="bg-[#072330] text-[#FFFECF] py-16 w-full "
+        id="audience"
+      >
         <div className="mx-[15%] mt-[8%]">
           {/* Header Section */}
           <div className="flex items-center mb-10 space-x-4 tracking-widest text-[1.5rem]">
@@ -152,8 +164,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* purpose section */}
-      <section className="bg-[#1C698B] text-[#FFFECF] py-16 min-w-full">
+      {/* value propos section */}
+      <section
+        className="bg-[#1C698B] text-[#FFFECF] py-16 min-w-full scroll-mt-24"
+        id="value"
+      >
         <div className="mx-[15%] mt-[8%]">
           <div className="flex items-center mb-10 space-x-8 tracking-widest text-[1.5rem]">
             <div>

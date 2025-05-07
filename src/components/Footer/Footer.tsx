@@ -17,31 +17,31 @@ export default function Footer() {
               <p className="font-semibold">Landing</p>
               <ul className="flex flex-col space-y-4 mt-4">
                 <Link
-                  href="/"
+                  href="/#intro"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
                   Introduction
                 </Link>
                 <Link
-                  href="/documents"
+                  href="/#identity"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
                   Identity
                 </Link>
                 <Link
-                  href="/design"
+                  href="/#purpose"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
                   Purpose
                 </Link>
                 <Link
-                  href="/Linkbout"
+                  href="/#audience"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
                   Audience
                 </Link>
                 <Link
-                  href="/"
+                  href="/#value"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
                   Value
@@ -89,34 +89,22 @@ export default function Footer() {
               <p className="font-semibold">Design Artifacts</p>
               <ul className="flex flex-col space-y-4 mt-4">
                 <Link
-                  href="/"
+                  href="/design#logo"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
-                  Introduction
+                  Brand Logo
                 </Link>
                 <Link
-                  href="/documents"
+                  href="/design#palette"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
-                  Identity
+                  Color Palette
                 </Link>
                 <Link
-                  href="/design"
+                  href="/design#typo"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
-                  Purpose
-                </Link>
-                <Link
-                  href="/Linkbout"
-                  className="transition duration-300 hover:text-[#1b8fc2]/80"
-                >
-                  Audience
-                </Link>
-                <Link
-                  href="/Hello"
-                  className="transition duration-300 hover:text-[#1b8fc2]/80"
-                >
-                  Value
+                  Brand Typography
                 </Link>
               </ul>
             </div>
@@ -125,34 +113,34 @@ export default function Footer() {
               <p className="font-semibold">About us</p>
               <ul className="flex flex-col space-y-4 mt-4">
                 <Link
-                  href="/"
+                  href="/about#manns"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
                   Manns
                 </Link>
                 <Link
-                  href="/documents"
+                  href="/about#ethan"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
-                  Cherilyn
+                  Ethan
                 </Link>
                 <Link
-                  href="/design"
+                  href="/about#mark"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
                   Mark
                 </Link>
                 <Link
-                  href="/Linkbout"
+                  href="/about#cha"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
                   Chariz
                 </Link>
                 <Link
-                  href="/"
+                  href="/about#manns"
                   className="transition duration-300 hover:text-[#1b8fc2]/80"
                 >
-                  Ethan
+                  Cherilyn
                 </Link>
               </ul>
             </div>

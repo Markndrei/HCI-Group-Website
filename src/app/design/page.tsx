@@ -9,7 +9,10 @@ export default function Design() {
         alt="bg1"
         className="top-0 absolute -z-10"
       />
-      <section className="mx-[15%] w-min-full h-[140vh] text-[#FFFCEF] px-6">
+      <section
+        className="mx-[15%] w-min-full h-[140vh] text-[#FFFCEF] px-6"
+        id="logo"
+      >
         <h1 className="flex justify-center font-extrabold text-[4rem] mt-20 mb-10">
           BRANDING IDENTITY
         </h1>
@@ -37,7 +40,7 @@ export default function Design() {
           </div>
         </div>
       </section>
-      <section className="w-min-full h-[120vh] mx-[15%]">
+      <section className="w-min-full h-[120vh] mx-[15%]" id="palette">
         <div className=" flex flex-col text-center justify-end items-end px-20">
           <h1 className="text-[3rem] font-bold mb-6 ">COLOR PALETTE</h1>
           <p className="w-[70%]">
@@ -53,7 +56,7 @@ export default function Design() {
           <Image src="/palette.svg" width={600} height={600} alt="" />
         </div>
       </section>
-      <section className="h-[100vh] mt-60 mx-[15%] text-[#FFFCEF]">
+      <section className="h-[100vh] mt-60 mx-[15%] text-[#FFFCEF]" id="typo">
         <div className="">
           <h1 className="font-bold text-[3rem] my-5">TYPOGRAPHY</h1>
           <h3 className="font-semibold text-[2rem] my-5">MANROPE</h3>
