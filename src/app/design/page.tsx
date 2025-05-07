@@ -75,7 +75,7 @@ export default function Design() {
         width={1600}
         height={1200}
         alt="bg2"
-        className="top-330 absolute -z-10 overflow-hidden"
+        className="top-350 absolute -z-10 overflow-hidden"
       />
     </div>
   );
