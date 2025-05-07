@@ -25,7 +25,7 @@ export default function Design() {
         </div>
         <div className="flex flex-row gap-x-40 mt-20">
           <div className="mt-10">
-            <Image src="/emblem.png" width={450} height={450} alt="emblem" />
+            <Image src="/emblem.svg" width={450} height={450} alt="emblem" />
           </div>
           <div>
             <Image
