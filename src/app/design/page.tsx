@@ -3,7 +3,7 @@ export default function Design() {
   return (
     <div className="text-[#08222F] tracking-widest text-[1.2rem]">
       <Image
-        src="/paletteTop.png"
+        src="/paletteTop.svg"
         width={1600}
         height={800}
         alt="bg1"
@@ -50,7 +50,7 @@ export default function Design() {
           </p>
         </div>
         <div className="flex justify-center mt-40">
-          <Image src="/palette.png" width={600} height={600} alt="" />
+          <Image src="/palette.svg" width={600} height={600} alt="" />
         </div>
       </section>
       <section className="h-[100vh] mt-60 mx-[15%] text-[#FFFCEF]">
@@ -66,12 +66,12 @@ export default function Design() {
           </p>
           <div className="flex justify-center items-center mt-10">
             {" "}
-            <Image src="/typography.png" width={500} height={500} alt="typo" />
+            <Image src="/typography.svg" width={500} height={500} alt="typo" />
           </div>
         </div>
       </section>
       <Image
-        src="/paletteBot.png"
+        src="/paletteBot.svg"
         width={1600}
         height={1200}
         alt="bg2"
