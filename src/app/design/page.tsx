@@ -1,7 +1,9 @@
 import Image from "next/image";
+import ParticleBackground from "@/components/ParticleBackground";
 export default function Design() {
   return (
     <div className="text-[#08222F] tracking-widest text-[1.2rem]">
+      <ParticleBackground />
       <Image
         src="/paletteTop.svg"
         width={1600}

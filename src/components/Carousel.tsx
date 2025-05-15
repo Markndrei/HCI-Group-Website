@@ -131,7 +131,7 @@ function Carousel() {
         {[...testimony, ...testimony].map((card, index) => (
           <div
             key={index}
-            className="flex-shrink-0 min-w-[24rem] h-[5rem] bg-[#FFFCEF]/60 backdrop-blur-lg rounded-xl shadow-md p-4 flex flex-col"
+            className="flex-shrink-0 min-w-[24rem] h-[5rem] bg-[#FFFCEF]/40 backdrop-blur-lg rounded-xl shadow-md p-4 flex flex-col"
           >
             <div className="flex items-start space-x-4 mb-4">
               <div className="w-14 h-14 relative flex-shrink-0">
@@ -152,7 +152,7 @@ function Carousel() {
                     @{card.author} · {card.publish}
                   </p>
                 </div>
-                <p className="text-gray-600 mt-1">{card.description}</p>
+                <p className="text-[#072330] mt-1">{card.description}</p>
               </div>
             </div>
           </div>

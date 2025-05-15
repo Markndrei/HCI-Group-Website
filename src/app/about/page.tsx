@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { profiles } from "@/data/team";
 import ProfileCard from "@/components/ProfileCard";
+import ParticleBackground from "@/components/ParticleBackground";
 export default function About() {
   return (
     <div>
+      <ParticleBackground />
       <section className="h-[100vh] text-[#FFFCEF]">
         <Image
           src="/about_top.svg"

@@ -1,14 +1,16 @@
 import Carousel from "@/components/Carousel";
 import Image from "next/image";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 export default function Home() {
   return (
     <div>
       {/* Dark intro with possibly animated bg */}
       <section
-        className="flex flex-col items-start justify-start min-h-screen bg-[#2d2d2d] overflow-x-hidden"
+        className="flex flex-col items-start justify-start min-h-screen overflow-x-hidden"
         id="intro"
       >
+        <AnimatedBackground />
         <div className=" ml-[8%] mt-[8%] space-y-4 ">
           <div className="inline-block border-2 border-[#FFFECF] p-4 mb-8">
             <h1 className="text-6xl font-bold text-[#1B8FC2]">
