@@ -57,6 +57,6 @@ export const profiles = [
         linkedin: "https://www.linkedin.com/in/cherilyn-marie-deocampo-464938337",
         instagram: "https://www.instagram.com/_cherxlynn/",
       },
-      portfolio: "https://example.com/kanton-portfolio",
+      portfolio: "https://cherilyn.vercel.app/",
     },
   ];
