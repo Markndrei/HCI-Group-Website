@@ -73,7 +73,7 @@ export default function Documents() {
         <section className="text-[3rem] text-[#1B8FC2] font-black mt-40">
           VISUAL <span className="text-[#FFFCEF]">DESIGN</span>
           {/* STORYBOARDING */}
-          <Link href="/documents-journey">
+          <Link href="/documents-storyboarding">
             <div className="cursor-pointer mt-6 flex w-full h-[50dvh] hover:shadow-xl transition">
               <div className="bg-[#5C899D] w-[60%] rounded-l-3xl flex items-center justify-center">
                 <div className="flex w-full px-8 gap-6 text-center items-center justify-center">
