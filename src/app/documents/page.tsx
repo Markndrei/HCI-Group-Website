@@ -95,15 +95,15 @@ export default function Documents() {
           </Link>
           <div className="flex space-x-6 w-full mt-6">
             <div className="flex w-full gap-6 text-center items-center justify-center">
-              {/* WIREFRAMES */}
+              {/* PROTOTYPE */}
               <Link
-                href="/documents-bmc"
+                href="https://ipsync.vercel.app/"
                 passHref
                 className="w-1/2 h-[50dvh] text-[4rem] bg-[#5C899D] rounded-3xl font-extrabold flex justify-center items-center"
               >
                 <div>
                   <Image
-                    src="/bmc-cover.svg"
+                    src="/prototype.png"
                     width={320}
                     height={320}
                     alt="BMC-COVER"
@@ -114,7 +114,7 @@ export default function Documents() {
 
               {/* MOCKUPS */}
               <Link
-                href="/documents-journey"
+                href="/documents-mockups"
                 passHref
                 className="w-1/2 text-[1rem] h-[50dvh] bg-[#FFFCEF] text-left rounded-3xl flex items-center justify-center"
               >
@@ -132,7 +132,7 @@ export default function Documents() {
           </div>
           <div className="flex space-x-6 w-full mt-4">
             <div className="flex w-full gap-6 text-left items-center justify-center text-[1.3rem] text-[#FFFCEF] font-bold">
-              <div className="w-1/2">Wireframes</div>
+              <div className="w-1/2">Prototype</div>
               <div className="w-1/2">Mockups</div>
             </div>
           </div>
