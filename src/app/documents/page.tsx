@@ -96,7 +96,7 @@ export default function Documents() {
             <div className="flex w-full gap-6 text-center items-center justify-center">
               {/* PROTOTYPE */}
               <Link
-                href="https://ipsync.vercel.app/"
+                href="https://www.figma.com/proto/YtL0K0mnWoZdYur119ttJI/HCI---IPSYNC-WIREFRAMES?node-id=0-1&t=7i8W6nNhxSQQmSD6-1"
                 passHref
                 className="w-1/2 h-[50dvh] text-[4rem] bg-[#5C899D] rounded-3xl font-extrabold flex justify-center items-center"
               >
