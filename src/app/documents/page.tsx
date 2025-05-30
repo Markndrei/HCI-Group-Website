@@ -52,7 +52,7 @@ export default function Documents() {
 
               {/* APP FEATURES DIV */}
               <Link
-                href="/documents-journey"
+                href="/appfeatures"
                 passHref
                 className="w-1/2 text-[1rem] h-[50dvh] bg-[#5C899D] text-left rounded-3xl flex items-center justify-center"
               >
