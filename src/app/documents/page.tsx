@@ -51,16 +51,15 @@ export default function Documents() {
               </Link>
 
               {/* APP FEATURES DIV */}
-              <Link
-                href="/appfeatures"
-                passHref
-                className="w-1/2 text-[1rem] h-[50dvh] bg-[#5C899D] text-left rounded-3xl flex items-center justify-center"
-              >
-                <div>
-                  How our concept evolved into a solution that connects students
-                  and organizations.
-                </div>
-              </Link>
+            <Link
+              href="/appfeatures"
+              passHref
+              className="w-1/2 h-[50dvh] bg-[#5C899D] rounded-3xl flex items-center justify-center"
+            >
+              <div className="px-8 py-6 text-[#FFFCEF] text-lg font-medium leading-relaxed text-left">
+                How our concept evolved into a solution that connects students and organizations.
+              </div>
+            </Link>
             </div>
           </div>
           <div className="flex space-x-6 w-full mt-4">
