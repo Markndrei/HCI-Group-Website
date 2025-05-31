@@ -33,7 +33,7 @@ export const profiles = [
         linkedin: "https://www.linkedin.com/in/mark-andrei-encanto-962179351/",
         instagram: "https://www.instagram.com/markndrei/",
       },
-      portfolio: "https://example.com/kanton-portfolio",
+      portfolio: "https://mrmarkndrei.vercel.app",
     },
      {
       name: "Chariz Dianne Falco",
