@@ -45,7 +45,7 @@ export const profiles = [
         linkedin: "https://www.linkedin.com/in/chariz-dianne-falco-12350626a",
         instagram: "https://www.instagram.com/cha.dianne",
       },
-      portfolio: "https://example.com/kanton-portfolio",
+      portfolio: "https://charchives.vercel.app/",
     },
      {
       name: "Cherilyn Marie Deocampo",
